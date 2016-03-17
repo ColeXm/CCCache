@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CCCache.h"
+#import "Model.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    Model *model = [Model new];
+    model.test1 = @"111";
+    model.test2 = @[@"ss",@"tff"];
+    
+    [[CCCache defaultManager]setObject:model forKey:@"model"];
+    
+    
+    id result = [[CCCache defaultManager]objectForKey:@"model"];
+    
+    NSLog(@"%@",result);
+    
 }
 
 - (void)didReceiveMemoryWarning {

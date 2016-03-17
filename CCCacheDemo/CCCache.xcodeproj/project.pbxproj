@@ -17,6 +17,7 @@
 		84453A351C9A8FB2000551C8 /* CCCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84453A311C9A8FB2000551C8 /* CCCacheObject.m */; };
 		84453A361C9A8FB2000551C8 /* CCEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84453A331C9A8FB2000551C8 /* CCEncrypt.m */; };
 		84453A391C9A8FD8000551C8 /* CCJSONParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84453A381C9A8FD8000551C8 /* CCJSONParse.m */; };
+		84453A3C1C9A9581000551C8 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 84453A3B1C9A9581000551C8 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		84453A331C9A8FB2000551C8 /* CCEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEncrypt.m; sourceTree = "<group>"; };
 		84453A371C9A8FD8000551C8 /* CCJSONParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCJSONParse.h; sourceTree = "<group>"; };
 		84453A381C9A8FD8000551C8 /* CCJSONParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCJSONParse.m; sourceTree = "<group>"; };
+		84453A3A1C9A9581000551C8 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = ../../../Model.h; sourceTree = "<group>"; };
+		84453A3B1C9A9581000551C8 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = ../../../Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				84453A241C9A8F93000551C8 /* LaunchScreen.storyboard */,
 				84453A271C9A8F93000551C8 /* Info.plist */,
 				84453A161C9A8F92000551C8 /* Supporting Files */,
+				84453A3A1C9A9581000551C8 /* Model.h */,
+				84453A3B1C9A9581000551C8 /* Model.m */,
 			);
 			path = CCCache;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				84453A1E1C9A8F92000551C8 /* ViewController.m in Sources */,
 				84453A391C9A8FD8000551C8 /* CCJSONParse.m in Sources */,
 				84453A351C9A8FB2000551C8 /* CCCacheObject.m in Sources */,
+				84453A3C1C9A9581000551C8 /* Model.m in Sources */,
 				84453A1B1C9A8F92000551C8 /* AppDelegate.m in Sources */,
 				84453A341C9A8FB2000551C8 /* CCCache.m in Sources */,
 				84453A181C9A8F92000551C8 /* main.m in Sources */,
@@ -330,6 +336,7 @@
 				84453A2C1C9A8F93000551C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
